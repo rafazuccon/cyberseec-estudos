@@ -1,4 +1,4 @@
-# CyberQuest PRO 7.0 — Estudos em Cibersegurança
+# CyberQuest PRO 8.0 — Estudos em Cibersegurança
 
 Plataforma educacional **offline**, em português, com aulas, questões comentadas, laboratórios simulados e gamificação.
 
@@ -29,3 +29,12 @@ Pratique testes de segurança apenas em sistemas próprios, ambientes didáticos
 O formato de progresso anterior foi preservado. Laboratórios concluídos continuam concluídos e os XP são mantidos. Duas perguntas adicionais por laboratório ficam disponíveis para revisão. **Recomenda-se exportar um backup antes da atualização**, especialmente ao trocar de arquivo, navegador ou computador.
 
 > O GitHub armazena o programa, mas não sincroniza o progresso entre dispositivos.
+
+## Terminal aprimorado na versão 8
+
+- Cada laboratório informa o tipo de console (por exemplo, Bash/Linux ou console simulado de API) e a linguagem ou formato estudado (Python, SQL, JSON, HTTP, logs etc.).
+- `help` mostra exemplos, `pwd` mostra a pasta virtual e `ls` / `ls -la` funcionam como comandos auxiliares em qualquer etapa, inclusive após avançar.
+- É possível repetir comandos das etapas anteriores e consultar arquivos fictícios com `cat` sem perder a progressão.
+- Para marcar uma etapa como concluída, execute o comando solicitado nela. Entradas incompatíveis recebem uma orientação sobre o próximo comando.
+- Opções sensíveis de ferramentas reais não são tratadas como equivalentes: `nmap -sV` difere de `-sv`; `curl -I` difere de `-i`.
+- O terminal continua sendo uma **simulação offline**: nenhum comando é executado no computador ou na rede.
